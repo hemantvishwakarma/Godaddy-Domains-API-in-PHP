@@ -37,3 +37,7 @@ Terms of use
 Each API endpoint has an allotted number of calls you are allowed to make within a period of time (60 requests per minute). If you attempt to make more API calls to an endpoint than this allotted amount, the call will be rejected by the GoDaddy API and will return an HTTP status code of 429 and an error message indicating that your rate limit has been surpassed.
 
 If you do receive an error indicating that you have exceeded your limit, the error message will tell you the duration you need to wait before resuming calls to that endpoint.
+
+Documentation
+Full reference documentation and ways to try out the API one call at a time.
+https://developer.godaddy.com/doc
