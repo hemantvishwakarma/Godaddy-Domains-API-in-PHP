@@ -1,6 +1,6 @@
 # Godaddy-Domains-API-in-PHP
 
-Youtube Channel - https://www.youtube.com/playlist?list=PLU2HEN18ys_aIVMzu49b2sdGz2iN5vo4N
+Youtube Videos - https://www.youtube.com/playlist?list=PLU2HEN18ys_aIVMzu49b2sdGz2iN5vo4N
 
 Godaddy Domains API in PHP
 Overview
