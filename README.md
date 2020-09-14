@@ -1,4 +1,7 @@
 # Godaddy-Domains-API-in-PHP
+
+Youtube Channel - https://www.youtube.com/playlist?list=PLU2HEN18ys_aIVMzu49b2sdGz2iN5vo4N
+
 Godaddy Domains API in PHP
 Overview
 The GoDaddy API allows developers to interact with the GoDaddy system in the same way we do. The API can be used by anyone who wants to manage their domains and account or create their own experience for registering, purchasing, and managing domains.
