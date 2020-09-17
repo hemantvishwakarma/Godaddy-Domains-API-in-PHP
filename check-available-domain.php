@@ -68,7 +68,7 @@ if(isset($_POST['btn']))
 	</head>
 	<body>
 		<div class="container" style="margin-top: 3%">
-			<h1>Youtube - <a target="_blank" href="https://www.youtube.com/watch?v=AD38SyYB8l4&list=PLU2HEN18ys_aIVMzu49b2sdGz2iN5vo4N">Go To Playlist</a></h1>
+			<h1>Youtube - <a target="_blank" href="https://www.youtube.com/playlist?list=PLuKH7Xd7LecedHne7xz5aEeshwFhoy60g">Go To Playlist</a></h1>
 			<br><br>
 			<div class="row">
 				<div class="col-md-3"></div>
