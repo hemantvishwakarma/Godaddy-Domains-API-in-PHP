@@ -42,11 +42,11 @@ if(isset($_POST['btn']))
 		$checkDomain = json_decode($result, true);
 		
 //		print_r($checkDomain);
-		if($checkDomain['available']==1){
+		if($checkDomain['available']==1 || $checkDomain['available']==true){
 			$msg='<div class="alert alert-success">Congrats! Your domain <strong>'.$domainTld.'</strong> is available.</div>';
 		} else if($checkDomain['code']) {
 			$msg='<div class="alert alert-danger">'.$checkDomain['fields'][0]['message'].'</div>';
-		} else if($checkDomain['available']=='' && $checkDomain['available']==0) {
+		} else if($checkDomain['available']=='' || $checkDomain['available']==0) {
 			$msg='<div class="alert alert-danger">Sorry! This domain <strong>'.$domainTld.'</strong> is already registered.</div>';
 		}
 		
