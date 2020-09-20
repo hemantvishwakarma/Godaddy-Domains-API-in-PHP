@@ -179,7 +179,7 @@ if(isset($_POST['domain'])) {
 							<input type="text" name="domain" class="form-control" value="<?php echo $_POST['domain']?>">
 						</div>
 						<hr>
-						<button type="submit" class="btn btn-success">Search domain</button>
+						<button type="submit" class="btn btn-success">Purchase domain</button>
 					</form>
 				</div>
 				<div class="col-md-3"></div>
