@@ -111,8 +111,8 @@ if(isset($_POST['domain'])) {
 	}';
 
 
-	$API_KEY 	= "3mM44UbC1dUFgm_XiVsriCcSKa3roqFL88opw";
-	$API_SECRET = "Atq73KaYHZxByFBQvBE1c5";
+	$API_KEY 	= "";
+	$API_SECRET = "";
 
 	$url = "https://api.ote-godaddy.com/v1/domains/purchase";
 
