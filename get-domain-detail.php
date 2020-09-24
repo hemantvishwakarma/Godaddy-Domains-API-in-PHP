@@ -1,8 +1,8 @@
 <?php 
 error_reporting(0);
 if(isset($_POST['domain'])){
-	$API_KEY 	= "3mM44UbC1dUFgm_XiVsriCcSKa3roqFL88opw";
-	$API_SECRET = "Atq73KaYHZxByFBQvBE1c5";
+	$API_KEY 	= "";
+	$API_SECRET = "";
 
 	$url = "https://api.ote-godaddy.com/v1/domains/".$_POST['domain'];
 //youtubemyvideos.com
@@ -20,6 +20,7 @@ if(isset($_POST['domain'])){
 	$result = curl_exec($ch);
 	curl_close($ch);
 	$domainDetail = json_decode($result, true);
+//	print_r($domainDetail);
 }
 ?>
 
