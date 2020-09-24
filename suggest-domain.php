@@ -6,8 +6,8 @@ if(isset($_POST['btn']))
 	
 	if($_POST['domain']) {
 				
-		$API_KEY 	= "3mM44UbC1aTbCD_LqSrxUzYHCwnBfEsF1CByf";
-		$API_SECRET = "XcMYdiZWryvwTJgarqVWyk";
+		$API_KEY 	= "";
+		$API_SECRET = "";
 
 		$_POST['domain'] = str_replace('www.', '', $_POST['domain']);
 		$_POST['domain'] = str_replace('www', '', $_POST['domain']);
