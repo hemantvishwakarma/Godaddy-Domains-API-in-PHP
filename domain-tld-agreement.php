@@ -1,7 +1,7 @@
 <?php 
 
-$API_KEY 	= "3mM44UbC1aTbCD_LqSrxUzYHCwnBfEsF1CByf";
-$API_SECRET = "XcMYdiZWryvwTJgarqVWyk";
+$API_KEY 	= "";
+$API_SECRET = "";
 
 
 $url = "https://api.ote-godaddy.com/v1/domains/agreements?tlds=in&privacy=false";
